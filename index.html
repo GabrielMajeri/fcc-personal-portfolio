@@ -6,6 +6,8 @@
 
     <title>Gabriel Majeri's Web Development Portfolio</title>
 
+    <link rel="stylesheet" href="index.css" />
+
     <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
       defer
@@ -16,9 +18,6 @@
     </script>
   </head>
   <body>
-    <section id="welcome-section">
-      <h1>Gabriel Does Web</h1>
-    </section>
     <nav id="navbar">
       <ul>
         <li><a href="#welcome-section">About</a></li>
@@ -26,63 +25,122 @@
         <li><a href="#contact">More Info</a></li>
       </ul>
     </nav>
+    <section id="welcome-section">
+      <h1>
+        Gabriel's <br />
+        Web Portfolio
+      </h1>
+    </section>
     <section id="projects">
-      <h2>Projects</h2>
-      <section class="project-tile">
-        <a
-          href="https://www.gabrielmajeri.ro/fcc-markdown-previewer/"
-          target="_blank"
-          rel="noopener noreferer"
-        >
-          <h3>Markdown Previewer</h3>
-        </a>
-      </section>
-      <section class="project-tile">
-        <a
-          href="https://www.gabrielmajeri.ro/fcc-tribute-page/"
-          target="_blank"
-          rel="noopener noreferer"
-        >
-          <h3>Tribute Page</h3>
-        </a>
-      </section>
-      <section class="project-tile">
-        <a
-          href="https://www.gabrielmajeri.ro/fcc-survey-form/"
-          target="_blank"
-          rel="noopener noreferer"
-        >
-          <h3>Survey Form</h3>
-        </a>
-      </section>
-      <section class="project-tile">
-        <a
-          href="https://www.gabrielmajeri.ro/fcc-product-landing-page/"
-          target="_blank"
-          rel="noopener noreferer"
-        >
-          <h3>Product Landing Page</h3>
-        </a>
-      </section>
-      <section class="project-tile">
-        <a
-          href="https://www.gabrielmajeri.ro/fcc-technical-documentation-page/"
-          target="_blank"
-          rel="noopener noreferer"
-        >
-          <h3>Technical Documentation Page</h3>
-        </a>
-      </section>
+      <div class="container">
+        <h2>Projects</h2>
+        <section class="project-tile">
+          <a
+            href="https://www.gabrielmajeri.ro/fcc-markdown-previewer/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <h3>Markdown Previewer</h3>
+            <img
+              src="images/markdown-previewer.png"
+              alt="Screenshot of Markdown previewer page"
+            />
+          </a>
+        </section>
+        <section class="project-tile">
+          <a
+            href="https://www.gabrielmajeri.ro/fcc-tribute-page/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <h3>Tribute Page</h3>
+            <img
+              src="images/tribute-page.png"
+              alt="Screenshot of Linus Torvalds tribute page"
+            />
+          </a>
+        </section>
+        <section class="project-tile">
+          <a
+            href="https://www.gabrielmajeri.ro/fcc-survey-form/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <h3>Survey Form</h3>
+            <img
+              src="images/survey-form.png"
+              alt="Screenshot of survey form page"
+            />
+          </a>
+        </section>
+        <section class="project-tile">
+          <a
+            href="https://www.gabrielmajeri.ro/fcc-product-landing-page/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <h3>Product Landing Page</h3>
+            <img
+              src="images/product-landing-page.png"
+              alt="Screenshot of product landing page"
+            />
+          </a>
+        </section>
+        <section class="project-tile">
+          <a
+            href="https://www.gabrielmajeri.ro/fcc-technical-documentation-page/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            <h3>Technical Documentation Page</h3>
+            <img src="images/technical-documentation-page.png" />
+          </a>
+        </section>
+      </div>
     </section>
     <section id="contact">
-      <h2>Contact</h2>
-      <a
-        href="https://github.com/GabrielMajeri"
-        id="profile-link"
-        target="_blank"
-        rel="noopener noreferer"
-        >GitHub profile
-      </a>
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Here are the various ways you can contact me:</p>
+        <ul>
+          <li>
+            Send me a message on
+            <a
+              href="https://www.linkedin.com/in/gabriel-majeri/"
+              target="_blank"
+              >LinkedIn</a
+            >!
+          </li>
+          <li>
+            Drop me an email at
+            <a href="mailto:gabriel.majeri6@gmail.com"
+              >gabriel.majeri6@gmail.com</a
+            >
+          </li>
+          <li>
+            Also check out my
+            <a
+              href="https://github.com/GabrielMajeri"
+              id="profile-link"
+              target="_blank"
+              rel="noopener noreferer"
+              >GitHub profile</a
+            >!
+          </li>
+        </ul>
+      </div>
     </section>
+    <footer>
+      <div class="container">
+        <small>
+          &copy; 2021 Gabriel Majeri &mdash; This site is
+          <a
+            href="https://github.com/GabrielMajeri/fcc-personal-portfolio"
+            target="_blank"
+            >open source</a
+          >.
+        </small>
+      </div>
+    </footer>
   </body>
 </html>
